@@ -1,0 +1,21 @@
+{% extends "mapapp/base.html" %}
+{% load tethys_gizmos %}
+
+{% block header_buttons %}
+  <div class="header-button glyphicon-button" data-toggle="tooltip" data-placement="bottom" title="Help">
+    <a data-toggle="modal" data-target="#help-modal"><span class="glyphicon glyphicon-question-sign"></span></a>
+  </div>
+{% endblock %}
+<!-- This is where the Main Page Goes  !-->
+{% block app_content %}
+  <h1 align="center">TYLER D MICKELSON</h1>
+  <h2 align="center">BABY MODEL</h2>
+  <p>Tyler has always known he was special and one day this was confirmed
+  when he was walking through a mall with his mom and she pointed at a giant
+  poster of a baby and said "Tyler, thats you!". The rest is history. If you
+  would like to get in touch for any modeling sessions, i'm no longer a baby
+  so stop asking! But to email me click <a href="mailto: tylerdmickelson@gmail.com? Subject=Are%20you%20that%20famous%20baby%20model?">here</a>.</p>
+  <div align="center"><img width="50%"  src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/28168000_10155554181841478_5957930870564737324_n.jpg?oh=d7ea1b1705744a94b7f36b804363387c&oe=5B0784C7">
+  </div>
+{% endblock %}
+

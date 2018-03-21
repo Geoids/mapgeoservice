@@ -1,0 +1,27 @@
+{% extends "mapapp/base.html" %}
+{% load tethys_gizmos %}
+
+{% block header_buttons %}
+  <div class="header-button glyphicon-button" data-toggle="tooltip" data-placement="bottom" title="Help">
+    <a data-toggle="modal" data-target="#help-modal"><span class="glyphicon glyphicon-question-sign"></span></a>
+  </div>
+{% endblock %}
+<!-- This is where the Main Page Goes  !-->
+{% block app_content %}
+  <h1 align="center">Welcome to the MAP APP</h1>
+  <p align="center">This is an APP that will show you a MAP</p>
+  <p align="center">CEEN 514</p>
+  <p align="center">Distance Calculator</p>
+  <p align="center">Add your ArcMap map to a Tethys App Assignment</p>
+  <p align="center">
+      The whole point of this assignment is to create four linked pages
+      that you can navigate through on the app.A home page, a map page, a
+      data sources page, and an about page. On the map page an interactive
+      map should appear allowing you to toggle a couple of dynamic layers
+      on and off. Also to see some baby model inception, click on the about
+      page.
+  </p>
+  <div align="center"><img width="50%" src="http://www.pvhc.net/img38/ztmvvdckiexuxxlyztpm.png">
+  </div>
+{% endblock %}
+
